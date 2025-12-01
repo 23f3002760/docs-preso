@@ -1,64 +1,71 @@
 ---
 marp: true
-theme: default
+theme: gaia
 paginate: true
-header: 'Technical Documentation'
-footer: '2025 Product Presentation'
+backgroundColor: #fff
+header: 'Technical Documentation | 23f3002760'
+footer: '© 2025 Tech Solutions'
 style: |
-  section.custom-bg {
-    background-color: #e0f7fa;
-    color: #006064;
-    font-family: 'Arial', sans-serif;
+  section.custom-style {
+    background-color: #000;
+    color: #fff;
   }
 ---
 
-# Product Documentation Strategy
-## Version Control Integration
+# Project Documentation
+## Version Controlled Strategy
 
-**Presenter ID:** 23f3002760
+**Author:** Technical Writer (23f3002760)
 **Email:** 23f3002760@ds.study.iitm.ac.in
 
 ---
 
-# Contact Details
+# Contact Information
 
-If you have questions about the documentation pipeline, please contact:
+Please direct all technical queries to the repository maintainer.
 
-* **Official:** 23f3002760@ds.study.iitm.ac.in
-* **Personal:** my.personal.email@gmail.com
-
----
-
-# Custom Styling Slide
-
-This slide uses a custom class defined in the `style` directive in the frontmatter.
-
-* Background: Light Cyan
-* Text: Dark Cyan
+* **Institutional:** 23f3002760@ds.study.iitm.ac.in
+* **Personal:** my.email.address@gmail.com
 
 ---
 
-![bg right:40%](https://fakeimg.pl/800x600/005500/ffffff?text=Docs)
+![bg left:33%](https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80)
 
-# Background Image Slide
+# Visual Architecture
+## Infrastructure Overview
 
-This slide demonstrates the background image syntax.
+This slide utilizes a background image on the left side (`bg left:33%`) to create a split-screen effect suitable for product intros.
 
-We use **GitHub** to host our documentation because it provides:
-1.  History tracking
-2.  Collaboration
-3.  Raw file access
+---
+
+# Custom Styling Directive
+
+This slide uses the `custom-style` class defined in the YAML frontmatter (at the top of the file).
+
+* **Directive Used:** `style`
+* **Effect:** Inverted colors (Black background, White text) for high contrast code display.
 
 ---
 
 # Mathematical Complexity
 
-We analyze the documentation parsing algorithm using standard Big O notation:
+We calculate the algorithmic efficiency using standard LaTeX math formatting.
+
+**The Complexity Equation:**
 
 $$
-f(x) = \sum_{i=0}^{n} \frac{1}{i^2}
+T(n) = \sum_{i=1}^{\log n} 2^i + C
 $$
 
-The complexity is approximately:
+Complexity Analysis:
+$$O(n)$$
 
-$$O(n \log n)$$
+---
+
+# Raw GitHub URL
+
+To access the source code for this presentation:
+
+`https://raw.githubusercontent.com/23f3002760/[REPO_NAME]/main/slides.md`
+
+*(Replace `[REPO_NAME]` with your actual repository name)*
