@@ -3,69 +3,48 @@ marp: true
 theme: gaia
 paginate: true
 backgroundColor: #fff
-header: 'Technical Documentation | 23f3002760'
-footer: '© 2025 Tech Solutions'
+header: 'Product Documentation v2.0'
+footer: '23f3002760@ds.study.iitm.ac.in'
+math: mathjax
 style: |
-  section.custom-style {
-    background-color: #000;
-    color: #fff;
+  section {
+    font-family: 'Helvetica', sans-serif;
+  }
+  code {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+  }
+  .highlight {
+    color: #d32f2f;
+    font-weight: bold;
   }
 ---
 
-# Project Documentation
-## Version Controlled Strategy
+# Product Documentation
+## API & System Architecture
 
-**Author:** Technical Writer (23f3002760)
-**Email:** 23f3002760@ds.study.iitm.ac.in
-
----
-
-# Contact Information
-
-Please direct all technical queries to the repository maintainer.
-
-* **Institutional:** 23f3002760@ds.study.iitm.ac.in
-* **Personal:** my.email.address@gmail.com
+**Technical Writer:** 23f3002760
+**Contact:** 23f3002760@ds.study.iitm.ac.in
 
 ---
 
-![bg left:33%](https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80)
+## 1. Algorithmic Complexity
 
-# Visual Architecture
-## Infrastructure Overview
-
-This slide utilizes a background image on the left side (`bg left:33%`) to create a split-screen effect suitable for product intros.
-
----
-
-# Custom Styling Directive
-
-This slide uses the `custom-style` class defined in the YAML frontmatter (at the top of the file).
-
-* **Directive Used:** `style`
-* **Effect:** Inverted colors (Black background, White text) for high contrast code display.
-
----
-
-# Mathematical Complexity
-
-We calculate the algorithmic efficiency using standard LaTeX math formatting.
-
-**The Complexity Equation:**
+We utilize an optimized sorting mechanism to ensure low latency. The average case time complexity is defined mathematically as:
 
 $$
-T(n) = \sum_{i=1}^{\log n} 2^i + C
+T(n) = O(n \log n) + \frac{1}{\epsilon} \sum_{i=0}^{k} \alpha^i
 $$
 
-Complexity Analysis:
-$$O(n)$$
+Where:
+- $n$ is the number of records
+- $\epsilon$ is the efficiency constant
 
 ---
 
-# Raw GitHub URL
+## 2. Installation Guide
 
-To access the source code for this presentation:
+To install the core package, run the following command in your terminal:
 
-`https://raw.githubusercontent.com/23f3002760/[REPO_NAME]/main/slides.md`
-
-*(Replace `[REPO_NAME]` with your actual repository name)*
+```bash
+npm install @company/core-sdk --save
