@@ -15,7 +15,7 @@ math: mathjax
 
 ## Algorithmic Complexity
 
-To ensure performance maintainability, the average case runtime is calculated as:
+The average case runtime is calculated as:
 
 $$
 T(n) = O(n \log n)
@@ -27,17 +27,12 @@ $$
 
 # Background Image Example
 
-This slide demonstrates the product visual style using a full background image.
+This slide uses a full-size background image directive.
 
 ---
 
-## Code Implementation
-
-The following Python snippet demonstrates the core greeting functionality:
+## Code Example
 
 ```python
 def greet():
-    """
-    Standard greeting function for the product API.
-    """
-    print("Hello from the Documentation Team!")
+    print("Hello from Marp!")
